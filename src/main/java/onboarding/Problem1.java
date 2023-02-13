@@ -1,10 +1,15 @@
 package onboarding;
 
 import java.util.List;
-/*wfaw*/
+import onboarding.problem1.Addition;
+import onboarding.problem1.errorCheck;
+
+// pobi = 97,98
+// crong = 197,198
+
 class Problem1 {
     public static int solution(List<Integer> pobi, List<Integer> crong) {
-        int answer = Integer.MAX_VALUE;
-        return answer;
+        errorCheck error = new errorCheck();
+        error.
     }
 }

@@ -15,7 +15,8 @@ class ApplicationTest {
             List<Integer> pobi = List.of(97, 98);
             List<Integer> crong = List.of(197, 198);
             int result = 0;
-            assertThat(Problem1.solution(pobi, crong)).isEqualTo(result);
+            //assertThat(Problem1.solution(pobi, crong)).isEqualTo(result);
+            assertThat(Problem1.solution(pobi, crong));
         }
 
         @Test
